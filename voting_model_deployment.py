@@ -5,7 +5,7 @@ import joblib
 # -----------------------------
 # Load Trained Model
 # -----------------------------
-model = joblib.load("voting_dropout_model.pkl")
+model = joblib.load("voting_dropout_model_new.pkl")
 
 expected_features = model.feature_names_in_
 
@@ -94,3 +94,4 @@ if st.button("🔍 Predict Dropout Risk"):
         st.success("✅ Low Risk of Dropout")
 
     st.markdown(f"### 📊 Probability of Dropout: **{probability:.2%}**")
+
