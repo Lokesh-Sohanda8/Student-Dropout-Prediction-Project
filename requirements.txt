@@ -1,0 +1,17 @@
+scikit-learn
+matplotlib
+seaborn
+pandas
+numpy
+xgboost
+catboost
+imbalanced-learn
+lightgbm
+ipykernel
+joblib
+streamlit
+mlflow
+scipy
+statsmodels
+openpyxl
+altair==4.2.2
