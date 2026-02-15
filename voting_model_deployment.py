@@ -14,7 +14,7 @@ st.set_page_config(page_title="Student Dropout Predictor", layout="centered")
 st.title("🎓 Student Dropout Risk Prediction")
 st.markdown("### Predict Risk of Student Dropout")
 
-st.divider()
+st.markdown('---')
 
 # -----------------------------
 # USER INPUTS (Important Ones)
@@ -33,8 +33,7 @@ course_group = st.selectbox(
     ["STEM", "Health", "Business", "Arts", "Social_Sciences"]
 )
 
-st.divider()
-
+st.markdown('---')
 # -----------------------------
 # Encode Inputs
 # -----------------------------
@@ -86,7 +85,7 @@ if st.button("🔍 Predict Dropout Risk"):
     prediction = model.predict(input_df)[0]
     probability = model.predict_proba(input_df)[0][1]
 
-    st.divider()
+    st.markdown('---')
 
     if prediction == 1:
         st.error("⚠️ High Risk of Dropout")
@@ -94,4 +93,5 @@ if st.button("🔍 Predict Dropout Risk"):
         st.success("✅ Low Risk of Dropout")
 
     st.markdown(f"### 📊 Probability of Dropout: **{probability:.2%}**")
+
 
