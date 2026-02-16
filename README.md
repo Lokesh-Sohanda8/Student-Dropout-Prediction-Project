@@ -291,9 +291,9 @@ It demonstrates:
 
 ## 👤 Author
 
-Name: Lokesh Sohanda
-Project Name: Student Dropout Prediction System
-Type: Machine Learning Project
-End-to-End Model + Deployment Implementation
+- Name: Lokesh Sohanda
+- Project Name: Student Dropout Prediction System
+- Type: Machine Learning Project
+- End-to-End Model + Deployment Implementation
 
 ---
